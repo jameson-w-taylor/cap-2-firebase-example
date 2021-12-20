@@ -9,7 +9,7 @@ You should assume that any v2 plugins no longer receive updates, and plan to mig
 To use this application, start at step #3 in the instructions below.
 They generate the needed configurations for the iOS/web platforms.
 
-This example will set `userId` to "TestIonicAppUser" and as you navigate.
+This example will set `userId` to "TestIonicAppUser" and track screen/page views as you navigate.
 Page 1 offers a button to trigger a custom analytics event: `my_custom_event`.
 
 ## App Setup
