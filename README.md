@@ -21,6 +21,6 @@ Page 1 offers a button to trigger a custom analytics event: `my_custom_event`.
 3. [Create a Google Analytics property](https://support.google.com/analytics/answer/9304153) and [add a data stream for iOS](https://support.google.com/analytics/answer/9304153#zippy=%2Cios-app-or-android-app).
     * Add the generated plist file [to your native project](https://github.com/capacitor-community/firebase-analytics/tree/capacitor-v2#ios).
 5. [Add a web app](https://firebase.google.com/docs/analytics/get-started?platform=web) to your project in Firebase.
-    * Copy this to the environment file (`firebaseInitOptions`) to use when initializing for the web platform.
+    * Copy the config into the environment file (`firebaseInitOptions`) to use when initializing for the web platform.
 6. Before deplying your app to iOS, make sure to [enable debug view](https://github.com/capacitor-community/firebase-analytics/tree/capacitor-v2#enable-debug-view) to see events in real-time.
     * To enable debug view for the web platform, install the [Google Analytics Debugger](https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna) chrome extension
