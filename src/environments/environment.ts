@@ -1,6 +1,17 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
+import { FirebaseInitOptions } from "@capacitor-community/firebase-analytics";
+
+export const firebaseInitOptions: FirebaseInitOptions = {
+  apiKey: '',
+  authDomain: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: '',
+  appId: '',
+  measurementId: ''
+};
 
 export const environment = {
   production: false
